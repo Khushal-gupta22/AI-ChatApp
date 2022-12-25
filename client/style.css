@@ -13,7 +13,6 @@ body {
 
 #app {
   width: 100vw;
-  height: 100vh;
   background: #343541;
 
   display: flex;
@@ -113,6 +112,8 @@ body {
 }
 
 form {
+  position: fixed;
+  bottom: 0;
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
